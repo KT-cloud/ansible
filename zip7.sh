@@ -16,6 +16,6 @@ com7zip="$phoronix benchmark compress-7zip"
 zip7=`$com7zip << EOF
 n
 EOF`
-echo "$zip7" > '/root/compress-7zip.txt'
+echo "$zip7" > '/root/compress-zip7.txt'
 
 echo "Finished phoronix-test-suite."
