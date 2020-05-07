@@ -1,3 +1,5 @@
+dpkg --configure -a
+
 apt-get update
 
 apt-get install php-cli php-xml << EOF
